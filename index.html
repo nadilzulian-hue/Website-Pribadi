@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Nadil ZULIAN AL MUSYAFFA — Website Pribadi</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="#beranda">Nadil ZULIAN</a>
+      <nav class="nav">
+        <a href="#beranda">Beranda</a>
+        <a href="#tentang">Tentang</a>
+        <a href="#cv">CV</a>
+        <a href="#karya">Hasil Karya</a>
+        <a href="#galeri">Galeri</a>
+        <a href="#sosmed">Media Sosial</a>
+        <a href="#kontak">Kontak</a>
+        <a href="#testimoni">Testimoni</a>
+      </nav>
+      <button class="nav-toggle" aria-label="Buka navigasi">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <!-- Beranda -->
+    <section id="beranda" class="hero">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <h1>Halo! nama saya <span class="name">Nadil ZULIAN AL MUSYAFFA</span></h1>
+          <p class="lead">Siswa yang sangat aktif dan antusias di dalam pelajaran coding dan bahasa Inggris. Selamat datang di website saya!</p>
+          <p><a class="btn" href="#kontak">Hubungi Saya</a></p>
+        </div>
+        <div class="hero-photo">
+          <img src="https://files.catbox.moe/5y0guv.jpg" alt="Foto Nadil ZULIAN AL MUSYAFFA">
+        </div>
+      </div>
+    </section>
+
+    <!-- Tentang -->
+    <section id="tentang" class="section">
+      <div class="container">
+        <h2>Tentang Saya</h2>
+        <div class="card">
+          <p>Saya merupakan siswa di <strong>SMKN 42 JAKARTA</strong> yang mengambil jurusan <strong>Manajemen Perkantoran</strong> di kelas 10 MP 2. Lahir pada <strong>02 Juli 2010</strong>.</p>
+          <p><strong>Hobi:</strong> Bermain basket dan editing video.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CV -->
+    <section id="cv" class="section">
+      <div class="container">
+        <h2>CV</h2>
+        <div class="grid">
+          <div>
+            <h3>Pendidikan</h3>
+            <ul class="timeline">
+              <li><strong>SDN CENGKARENG TIMUR 07 PAGI</strong> (2017–2023)</li>
+              <li><strong>SMP CENGKARENG 1</strong> (2023–2026)</li>
+              <li><strong>SMKN 42 JAKARTA</strong> (2026–Sekarang)</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Kemampuan</h3>
+            <div class="skill">
+              <div class="skill-title">Coding <span class="percent">40%</span></div>
+              <div class="skill-bar"><div class="skill-fill" style="width:40%"></div></div>
+            </div>
+            <div class="skill">
+              <div class="skill-title">Basket <span class="percent">65%</span></div>
+              <div class="skill-bar"><div class="skill-fill" style="width:65%"></div></div>
+            </div>
+            <div class="skill">
+              <div class="skill-title">Editing Video <span class="percent">70%</span></div>
+              <div class="skill-bar"><div class="skill-fill" style="width:70%"></div></div>
+            </div>
+            <div class="skill">
+              <div class="skill-title">Berbicara Bahasa Inggris <span class="percent">80%</span></div>
+              <div class="skill-bar"><div class="skill-fill" style="width:80%"></div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Hasil karya -->
+    <section id="karya" class="section alt">
+      <div class="container">
+        <h2>Hasil Karya</h2>
+        <div class="card centered">
+          <img src="https://files.catbox.moe/9pofqx.jpg" alt="Hasil Karya Nadil" class="work-image">
+          <p class="caption">Salah satu hasil karya saya.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Galeri -->
+    <section id="galeri" class="section">
+      <div class="container">
+        <h2>Galeri Foto</h2>
+        <div class="gallery">
+          <img src="https://files.catbox.moe/gy1zkc.jpg" alt="Galeri 1" class="gallery-item" loading="lazy">
+          <img src="https://files.catbox.moe/h45l5t.jpg" alt="Galeri 2" class="gallery-item" loading="lazy">
+          <img src="https://files.catbox.moe/6pvycg.jpg" alt="Galeri 3" class="gallery-item" loading="lazy">
+        </div>
+      </div>
+    </section>
+
+    <!-- Sosial -->
+    <section id="sosmed" class="section alt">
+      <div class="container">
+        <h2>Link Media Sosial</h2>
+        <div class="card social">
+          <a href="https://www.instagram.com/ur.nielzz?stkn=dGp2ZWxlZjNtZjV6" target="_blank" rel="noopener">Instagram</a>
+          <a href="https://tiktok.com/@ur.nielzz" target="_blank" rel="noopener">TikTok</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Kontak -->
+    <section id="kontak" class="section">
+      <div class="container">
+        <h2>Kontak</h2>
+        <div class="card">
+          <p>Teruslah</p>
+          <form id="contactForm" class="contact-form">
+            <label>
+              Nama
+              <input type="text" name="name" placeholder="Nama Anda">
+            </label>
+            <label>
+              Pesan
+              <textarea name="message" rows="4" placeholder="Tulis pesan...">Teruslah</textarea>
+            </label>
+            <button type="submit" class="btn">Kirim (Simulasi)</button>
+            <p class="form-status" id="formStatus" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimoni -->
+    <section id="testimoni" class="section alt">
+      <div class="container">
+        <h2>Testimoni</h2>
+        <blockquote class="quote">"Kegagalan bukanlah akhir, tetapi awal dari kesuksesan."</blockquote>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Nadil ZULIAN AL MUSYAFFA — Dibuat dengan ❤️</p>
+    </div>
+  </footer>
+
+  <div id="modal" class="modal" aria-hidden="true">
+    <div class="modal-inner">
+      <button id="modalClose" class="modal-close" aria-label="Tutup">✕</button>
+      <img id="modalImg" src="" alt="">
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+  </html>
